@@ -1,2 +1,2 @@
-This repo contans several projects. 
+This repo contains several projects. 
 Please navigate to each poject to learn about them.
