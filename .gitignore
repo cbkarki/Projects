@@ -3,8 +3,6 @@
 .RData
 .Ruserdata
 *.RData
-*.csv
-*.xlsx
 *.DS_Store
 *.zip
 *.log
