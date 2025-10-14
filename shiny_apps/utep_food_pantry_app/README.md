@@ -68,7 +68,7 @@ install.packages(c(
 
 1. Clone this repository or download it as a ZIP:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/utep-food-pantry-app.git
+   git clone https://github.com/cbkarki/Projects/utep_food_pantry_app.git
    ```
 
 2. Place your data files (`master.csv`, `extra_questions_withID.csv`) in the app directory.
