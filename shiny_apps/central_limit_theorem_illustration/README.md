@@ -11,7 +11,7 @@ The **Central Limit Theorem (CLT)** is one of the foundation results in
 probability and statistics.  
 It simpler words, **regardless of the shape of the population
 distribution**, the **distribution of sample means** tends to be
-**approximately normal** when the sample size (`n`) is sufficiently
+**approximately normal** when the sample size (n) is sufficiently
 large.
 
 This app helps users *see* this idea in action through interactive
