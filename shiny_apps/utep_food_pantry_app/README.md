@@ -82,7 +82,7 @@ install.packages(c(
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 utep-food-pantry-app/
@@ -102,12 +102,9 @@ utep-food-pantry-app/
 ##  Author
 
 **Chitra Karki**  
-Ph.D. Candidate, Data Science  
+Data Science  
 University of Texas at El Paso  
 cbkarki@miners.utep.edu
 
 ---
 
-##  License
-
-This project is distributed for academic and educational use. Please cite appropriately if used in publications or teaching materials.
