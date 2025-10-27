@@ -221,14 +221,15 @@ server = function(input, output) {
     })
 
     output$ggbar3 = renderPlot({
-        inner_join(q1,q2,"RespondentId") %>%
+        gend = c("Female","Male","transgender","Gender variant","other","Prefere not to say")
+        br3 = inner_join(q1,q2,"RespondentId") %>%
             #select(FedAid,Gender,DiffConcentrate) %>%
             filter(FedAid != "UTEP's COVID CARES Act Fund" & FedAid != "Other") %>%
             mutate(Index = ifelse(index==0|index==1,"Mariginal",ifelse(index==5|index==6,"Very Low","Low"))) %>%
             rename(Gen=Gender) %>%
             mutate(Gender = gend[as.factor(Gen)],
                    Gender = as.factor(Gender)) %>%
-            data.frame() %>% drop_na() -> br3
+            data.frame() %>% drop_na()
             p <- ggplot(br3,aes(x=DelayComplDegree,fill=Gender))+
             geom_bar(stat = "count",
                      position = position_dodge( preserve = "single")) +

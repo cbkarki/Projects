@@ -29,13 +29,13 @@ sampling and visualization.
 -   Visualize:
     -   The **original population distribution**
     -   The **distribution of sample means**
--   Dynamically simulate with a single click (`Simulate` button).
+-   click (`Simulate`) button.
 
 ------------------------------------------------------------------------
 
 ## How It Works
 
-1.  Select a population distribution from the dropdown.
+1.  Select a population distribution from the drop down.
 2.  Set:
     -   The **sample size (n)** — how many observations per sample.
     -   The **number of samples** — how many samples to draw.
@@ -52,7 +52,7 @@ sampling and visualization.
 
 ## ️ App Preview
 
-**Population vs. Sampling Distribution Example**
+**Population vs.Sampling Distribution Example**
 
 ![](images/clt_in_action.png)
 
